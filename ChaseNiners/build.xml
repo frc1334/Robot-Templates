@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="FRC Deployment" default="deploy">
+  
+  <!-- By default the system version of WPI is used -->
+  <!-- <property name="version" value=""/> -->
+
+  <!-- By default the system team number is used -->
+  <!-- <property name="team-number" value=""/> -->
+
+  <!-- By default the target is set to 10.TE.AM.2 -->
+  <!-- <property name="target" value=""/> -->
+  
+  <property file="${user.home}/wpilib/wpilib.properties"/>
+  <property file="build.properties"/>
+  <property file="${user.home}/wpilib/cpp/${version}/ant/build.properties"/>
+  
+  <property file="C:\Users\P\Documents\GitHub\ChaseNiners\build.xml:26:"/>
+	
+  <import file="${wpilib.ant.dir}/build.xml"/>
+
+</project> 
